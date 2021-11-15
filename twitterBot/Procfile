@@ -1,1 +1,1 @@
-worker: java -cp target/classes/:target/dependency/* com.mycompany.twitterbot.App
+web: java -cp target/classes/:target/dependency/* com.mycompany.twitterbot.App
