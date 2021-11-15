@@ -1,1 +1,1 @@
-worker: java -jar twitterBot-1.0-SNAPSHOT.jar
+worker: java -cp target/classes/:target/dependency/* com.mycompany.twitterbot.App
